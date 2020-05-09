@@ -1,7 +1,18 @@
 {
-  "name": "create-nativeweb",
-  "version": "0.0.0",
-  "repository": "nativew/starter",
-  "author": "Antoine Boulanger <hello@antoineboulanger.com> (https://antoineboulanger.com)",
-  "license": "ISC"
+	"name": "create-nativeweb",
+	"version": "0.1.0",
+	"description": "🎨 Command-line tool for Native Web.",
+	"repository": "nativew/create",
+	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
+	"license": "ISC",
+	"main": "src/index.js",
+	"bin": {
+		"nativeweb": "src/index.js"
+	},
+	"scripts": {
+		"format": "prettier --write 'src/**/*.js'"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
 }
