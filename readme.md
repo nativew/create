@@ -2,7 +2,7 @@
 Command-line tool for [Native Web](https://github.com/nativew/nativeweb).
 
 ## ✨ Features
-- **Init**. Start a project with [Start 🧨](https://github.com/nativew/start).
+- **Init**. Start a project with [Start](https://github.com/nativew/start) 🧨.
 
 ## 🚀 Start
 ```zsh
@@ -12,6 +12,12 @@ npm init nativeweb
 # And run it 👟
 npm start
 ```
+
+## 🚨 Requirements
+| Name | Version |
+| ---- | ------- |
+| [Git](https://git-scm.com) | Any |
+| [Node](https://nodejs.org) | Recent |
 
 ## 🤝 License 
 [ISC](https://github.com/nativew/build/blob/master/license)
