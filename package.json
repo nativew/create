@@ -1,6 +1,6 @@
 {
 	"name": "create-nativeweb",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"description": "🧶 Command-line tool for Native Web.",
 	"repository": "nativew/create",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
