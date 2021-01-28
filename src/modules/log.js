@@ -1,7 +1,5 @@
-const color = require('./color');
+import color from './color.js';
 
-function log(message) {
-	console.log(color(message));
-}
+const log = message => console.log(color(message));
 
-module.exports = log;
+export default log;

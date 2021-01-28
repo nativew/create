@@ -1,7 +1,5 @@
-const fs = require('fs');
+import fs from 'fs';
 
-function exists(path) {
-	return fs.existsSync(path) ? true : false;
-}
+const exists = path => (fs.existsSync(path) ? true : false);
 
-module.exports = exists;
+export default exists;

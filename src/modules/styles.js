@@ -26,4 +26,4 @@ const styles = {
 	bgWhite: '\x1b[47m'
 };
 
-module.exports = styles;
+export default styles;

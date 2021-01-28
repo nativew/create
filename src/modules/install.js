@@ -1,8 +1,7 @@
-const exists = require('./exists');
-const run = require('./run');
+import exists from './exists.js';
+import run from './run.js';
 
-function install(dest) {
+const install = dest =>
 	exists(`${dest}/package.json`) && run('npm', ['install', '--prefix', dest]);
-}
 
-module.exports = install;
+export default install;

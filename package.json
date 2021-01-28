@@ -1,21 +1,23 @@
 {
 	"name": "create-nativeweb",
 	"version": "0.1.1",
-	"description": "🎨 Command-line tool for Native Web.",
+	"description": "🧶 Command-line tool for Native Web.",
 	"repository": "nativew/create",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
 	"license": "ISC",
+	"exports": "./src/index.js",
 	"main": "src/index.js",
+	"type": "module",
 	"bin": {
 		"nativeweb": "src/index.js"
 	},
 	"scripts": {
-		"format": "prettier --write 'src/**/*.js'"
-	},
-	"devDependencies": {
-		"prettier": "^2.0.5"
+		"format": "prettier --write --ignore-unknown '**/*'"
 	},
 	"files": [
 		"src"
-	]
+	],
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	}
 }

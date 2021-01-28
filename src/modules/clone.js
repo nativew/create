@@ -1,16 +1,15 @@
-const { url } = require('../data');
-const run = require('./run');
+import run from './run.js';
+import { url } from '../data.js';
 
-function clone(dest) {
+const clone = dest => {
 	const cmd = run('git', ['clone', '--depth=1', url, dest]);
 
 	if (cmd.status == 0) {
-		// Delete .git folder
 		run('rm', ['-rf', `${dest}/.git`]);
 		return true;
-	} else {
-		return false;
 	}
-}
 
-module.exports = clone;
+	return false;
+};
+
+export default clone;

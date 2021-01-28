@@ -1,7 +1,7 @@
-const { yellow, reset } = require('./styles');
+import styles from './styles.js';
 
-function color(text) {
-	return yellow + text + reset;
-}
+const { yellow, reset } = styles;
 
-module.exports = color;
+const color = text => yellow + text + reset;
+
+export default color;

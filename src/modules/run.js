@@ -1,7 +1,5 @@
-const { spawnSync } = require('child_process');
+import { spawnSync } from 'child_process';
 
-function run(cmd, args) {
-	return spawnSync(cmd, args, { stdio: 'inherit' });
-}
+const run = (cmd, args) => spawnSync(cmd, args, { stdio: 'inherit' });
 
-module.exports = run;
+export default run;

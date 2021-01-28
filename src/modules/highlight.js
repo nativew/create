@@ -1,7 +1,7 @@
-const { bgGreen, black, reset } = require('./styles');
+import styles from './styles.js';
 
-function highlight(text) {
-	return bgGreen + black + text + reset;
-}
+const { bgGreen, black, reset } = styles;
 
-module.exports = highlight;
+const highlight = text => bgGreen + black + text + reset;
+
+export default highlight;
