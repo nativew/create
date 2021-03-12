@@ -1,3 +1,5 @@
+<div></div>
+
 # Create 🧶
 
 Command-line tool for [Native Web](https://github.com/nativew/nativeweb).
@@ -24,8 +26,10 @@ npm init nativeweb
 
 <br><br>
 
-<a href="https://github.com/nativew/nativeweb">
-    <img src="https://raw.githubusercontent.com/nativew/nativeweb/1e9405c629e3a6491bb59df726044eb3823967bb/logo-square_nativeweb.svg" alt="Native Web" width="80px">
-</a>
+<p>
+    <a href="https://github.com/nativew/nativeweb">
+        <img src="https://raw.githubusercontent.com/nativew/nativeweb/1e9405c629e3a6491bb59df726044eb3823967bb/logo-square_nativeweb.svg" alt="Native Web" width="80px">
+    </a>
+</p>
 
-<br>
+<div></div>
